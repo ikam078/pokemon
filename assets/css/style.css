@@ -111,7 +111,7 @@ body{
 
 .big-heading h1{
     font-size: 3em;
-    font-weight: 700px;
+    
     margin-bottom: 20px;
     color: black;
 }
@@ -271,7 +271,7 @@ text-align: center;
         display: block;
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .navbar-item{
         display: none;
         text-align: right;
@@ -283,7 +283,7 @@ text-align: center;
         flex-wrap: wrap;
     }
     .explore-button{
-        font-size: 12px 6px;
+        font-size: 10px 4px;
     }
     
 }
