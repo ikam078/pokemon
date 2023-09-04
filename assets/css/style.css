@@ -267,24 +267,32 @@ text-align: center;
     .active{
         display: block;
     }
+    .toggle{
+        display: block;
+    }
 }
 @media screen and (max-width: 768px) {
+    .navbar-item{
+        display: none;
+        text-align: right;
+        margin: 20px;
+        width: 100%;
+        margin-right: 50px;
+    }
     .navbar-list{
         flex-wrap: wrap;
     }
     .explore-button{
         font-size: 12px 6px;
     }
-    .toggle{
-        display: block;
-    }
+    
 }
 @media screen and (max-width: 500px) {
     .character-img{
         width: 290px;
     }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 426px) {
     
     .character-img{
         width: 250px;
@@ -298,6 +306,10 @@ text-align: center;
     }
     .card-button{
         padding:  8px 15px;
+    }
+    .logo{
+        margin-left: 5px;
+        padding-left: 5px;
     }
 }
 @media screen and (max-width: 376px) {
