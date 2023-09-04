@@ -301,8 +301,7 @@ text-align: center;
         width: 58%;
     }
     .image-box{
-        width: 250px;
-        height: 250px;
+        width: 100%;
     }
     .card-button{
         padding:  8px 15px;
